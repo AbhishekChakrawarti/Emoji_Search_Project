@@ -1,0 +1,48 @@
+body{
+    background-color: #dfdcd2;
+    margin : 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    /* text-transform: uppercase; */
+    letter-spacing: .3rem;
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    justify-content:center;
+}
+
+input{
+ width:25%;
+ height: 30px;
+ border-radius: 10px;
+ font-size: 20px;
+ font-style: itali;
+ background-color: #dfdcd2;
+ box-shadow: 10px solid  rgba(0, 0, 0, 0.4);
+}
+
+#emoji_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+#emoji_container div{
+    margin : 15px;
+    padding: auto;
+    width: 30px;
+    height: auto;
+    transition: tranform .2s;
+}
+
+#emoji_container div :hover{
+    transform: scale(3);
+}
+
